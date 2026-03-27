@@ -1,0 +1,5 @@
+fastapi[standard]>=0.135.1
+aiosqlite>=0.22.1
+httpx>=0.28.1
+user-agents>=2.2.0
+psycopg[binary]>=3.3.3

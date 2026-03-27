@@ -1,0 +1,16 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Code4Boy Backend API"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.135.1",
+    "psycopg[binary]>=3.3.3",
+    "aiosqlite>=0.22.1",
+    "httpx>=0.28.1",
+    "user-agents>=2.2.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
